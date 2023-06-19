@@ -724,6 +724,7 @@ form button {
 
 @media (min-width: 992px) {
     .recent_news {
+        font-size: 0.6em;
         display: inline;
         max-width: 400px;
         margin-top: 0px;
@@ -785,10 +786,6 @@ main.news_page .recent_news article p {
 }
 
 @media (min-width: 992px) {
-    .recent_news {
-        font-size: 0.6em;
-    }
-
     main.news_page .recent_news h2 {
         font-size: 2.3rem;
         margin-bottom: 25px;
