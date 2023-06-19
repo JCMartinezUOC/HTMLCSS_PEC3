@@ -47,7 +47,6 @@ body>footer .footer_links {
 @media (min-width: 992px) {
     body>footer .footer_links {
         flex-direction: row;
-        align-items: left;
         justify-content: left;
         padding-top: 50px;
     }
