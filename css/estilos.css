@@ -826,7 +826,16 @@ a {
 }
 
 a:hover {
-    text-decoration: solid;
+    color: rgb(0, 0, 0);
+}
+
+p a:hover:not(.article_link) {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.field_checkbox a:hover {
+    text-decoration: underline;
     color: rgb(0, 0, 0);
 }
 
